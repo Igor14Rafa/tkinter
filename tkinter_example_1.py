@@ -1,7 +1,8 @@
 import Tkinter, Tkconstants, tkFileDialog
 
 class TkFileDialogExample(Tkinter.Frame):
-    """This example shows how to ask user to enter a file, saving it's absolute path. Based on a Windows System.  
+    """This example shows how to ask user to enter a file, saving it's absolute path. Based on a Windows System.
+       Extracted from http://tkinter.unpythonic.net/wiki/tkFileDialog
     """
 
     def __init__(self, root):
